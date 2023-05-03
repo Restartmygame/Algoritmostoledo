@@ -16,7 +16,7 @@ void main(){
 	
 	soma = num1 + num2;
 	
-	printf("%s","A soma dos numeros eh: ","%d", &soma);
+	printf("A Soma dos numeros eh: %d", soma);
 	
 	
 }
