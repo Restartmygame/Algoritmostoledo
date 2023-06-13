@@ -138,7 +138,7 @@ int main(){
                 percent_pessimo = ((float)ava_5 / i) * 100;
       
       //exibição da percentagem de pessoas que responderam pessimo
-                 printf("%f%% das pessoas responderam pessimo\n", percent_pessimo);
+                 printf("%0.2f%% das pessoas responderam pessimo\n", percent_pessimo);
       
       //exibição da maior idade que respondeu pessimo
                  printf("A pessoa mais velha que respondeu pessimo tem %d anos\n", maior_idade_pessimo);
